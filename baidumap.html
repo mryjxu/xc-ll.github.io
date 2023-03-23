@@ -1,0 +1,51 @@
+<!Doctype html>
+<html lang="zh">
+	<title>医院药店查询-壳普志</title>
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="bookmark" href="/favicon.ico" type="image/x-icon"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<style type="text/css">
+		html{height:100%}  
+		body{height:100%;margin:0px;padding:0px}  
+		#container{height:100%}  
+	</style> 
+	</style>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=GMLTlGGKYDDUIARN59nag6Aq"></script>
+	<script src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="http://developer.baidu.com/map/jsdemo/demo/convertor.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		/*h5获取地理位置*/
+		if (navigator.geolocation){
+    		navigator.geolocation.getCurrentPosition(showPosition);
+		}else{alert("未收到gps地址")};
+		function showPosition(position){
+		 	var lat=position.coords.latitude;
+		 	var lng=position.coords.longitude;
+		 	var gpsPoint = new BMap.Point(lng,lat);
+			//地图初始化
+			var bm = new BMap.Map("container");
+			bm.centerAndZoom(gpsPoint,20);
+		//标记
+			var marker = new BMap.Marker(gpsPoint);
+			bm.addOverlay(marker);
+			bm.addControl(new BMap.NavigationControl());
+		setTimeout(function(){
+		    BMap.Convertor.translate(gpsPoint,0,translateCallback);     //真实经纬度转成百度坐标
+		}, 1500);
+		//坐标转换完之后的回调函数
+		translateCallback = function (point){
+		    var marker = new BMap.Marker(point);
+		    bm.addOverlay(marker);
+		    bm.setCenter(point);
+		}		
+	  	}
+	  });
+</script>
+<body>
+<div id="container"></div> 
+</body>
+</html>
+
+
