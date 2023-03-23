@@ -1,0 +1,1705 @@
+@charset"utf-8";
+ .banner {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 480px;
+}
+.banner .container {
+    position: relative;
+    height: 100%
+}
+.bantxt {
+    position: absolute;
+    left: 0;
+    bottom:20%;
+    color:#fff;
+}
+.bantxt h4 {
+    font-size: 38px;
+    letter-spacing: 5px;
+    font-weight: normal;
+}
+.bantxt p {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 15px;
+    letter-spacing: 2px;
+}
+/*2 症状--耳鼻喉*/
+ .xb {
+    border-bottom: 1px solid #e6e6e6;
+}
+.xbnav a {
+    display: inline-block;
+    padding: 40px 10px;
+    border-bottom: 3px solid transparent;
+    color:#333;
+    font-size: 16px;
+    margin-right:20px;
+}
+.xbnav a:hover, .xbnav a.active {
+    border-bottom: 3px solid #ff2900;
+    color:#ff2900;
+}
+.xtxt {
+    font-size: 14px;
+    color:#333;
+    margin-bottom: 60px;
+}
+/* 新增 许英杰 */
+/* .xmes
+.symptoms__container--main{
+	display: block;
+	width: 100%;
+} */
+/* 新增 许英杰 */
+#nav_symptom{
+	padding: 20px;
+}
+.navlist{
+	/* width: 1130px;*/
+	width: 100%;
+	height: 220px;
+	margin: 0;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	/* padding: 20px;*/
+	padding: 0;
+	font-size: 20px;
+}
+.nav-img{
+	/* width: 40%; */
+	/* height: 124.44px; */
+	float: left;
+	
+}
+.nav-img img{
+	/* width: 100%; */
+	height: auto%;
+	max-height:120px;
+	margin: 42.5px auto;
+	object-fit: cover;
+	width: auto; 
+	max-width: 100%;
+	float: right;
+	/* 新增 许英杰 */
+	padding: 0 40px 0 0;
+}
+.navtxt a{
+	/* color: #B12E32; */
+	/* padding: 0 100px; */
+	
+	color: #B12E32;
+	margin-right: 20px;
+	padding: 40px 10px;
+	display: inline-block;
+}
+/*  */
+
+/* 注解掉 许英杰 */
+/* .xtil h4 {
+    font-size: 30px;
+    color:#333;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+.xtil p {
+    font-size: 16px;
+    color:#999;
+} */
+/* .ximg {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.ximg img {
+    width: 100%;
+}
+.xcell {
+    margin-bottom: 20px;
+} */
+/* 注解掉 许英杰 */
+/* 注解掉 许英杰 */
+
+/* 新增3 许英杰 */
+
+.xmes ul,li {
+	list-style: disc;
+	
+	/* margin-left: 20px; */
+}
+
+ /* 为了让症状页面显示圆点 */
+ 
+ /* 新增 许英杰 */
+ .xmes ul {
+	 margin-left: 40px;
+ }
+ /*  */
+.xmes h4 {
+    font-size: 16px;
+    font-weight: normal;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 40px;
+}
+
+.xmes h4 span {
+    padding:10px 5px;
+	/* 新改色  */
+    border-bottom: 2px solid #0b0808;   
+    margin-bottom: -1px;
+    display: inline-block;
+	/* 新增样式 控制字体大小和比重 许英杰 */
+	    font-size: 40px;
+	    font-weight: 600;
+}
+
+/* 新增 许英杰 */
+.xmes p{
+	font-size: 15px;
+}
+/*  */
+
+/* 新增 许英杰 */
+.xmes h3{
+	padding:10px 5px;
+	border-bottom: 2px solid #0b0808;   
+	/* margin-bottom: -1px; */
+	display: inline-block;
+	    font-size: 24px;
+	    font-weight: 600;
+		color: #E43725;
+		margin-bottom: 40px;
+}
+/*  */
+/* 新增 许英杰 */
+.xmes h5 span{
+	font-size: 24px;
+}
+/*  */
+
+/* 新增 许英杰 */
+.guanjiandianBgcolol{
+	 background-color: #faf1f2;
+	color: #b12e32;;
+}
+/*  */
+
+/* 注解掉 许英杰 */
+/* .xmes .mestxt ul {
+    width: 70%;
+}
+.xmes .mestxt ul li {
+    float: left;
+    width: 50%;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.xmes .mestxt ul li span {
+    display: block;
+    color:#999;
+    margin-bottom: 10px;
+}
+.xmes .mestxt ul li p {
+    color:#333;
+} */
+/* 注解掉 许英杰 */
+
+/*2症状--腹部和消化系统*/
+ /* .ximg.clearfix img {
+    width:50%;
+    float: left;
+}
+.mestxt>p {
+    color:#333;
+    font-size: 14px;
+    line-height: 30px;
+} */
+/*2症状-妇产科*/	
+.com_book {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+}
+.bookfb7 {
+    height: 900px;
+}
+#fb7 #fb7-about .honor {
+    width: 100%;
+}
+#fb7 #fb7-about .honor h4 {
+    font-size: 30px;
+    font-weight: normal;
+    color:#333;
+    margin-bottom: 70px;
+}
+#fb7 #fb7-about .honor h4 span {
+    display: block;
+}
+#fb7-ajax a {
+    transition: none;
+}
+#fb7 .fb7-bcg-book {
+    background: none;
+}
+.fb7-bg {
+    position: absolute;
+    width: 80%;
+    left:50%;
+    top:0;
+    height:100%;
+    transform:translateX(-50%);
+    /* background: url("../images/index_map.png") no-repeat center !important; */
+    background-size: contain !important;
+}
+#fb7 .fb7-nav-arrow.prev {
+    background: url("../images/icon/previous_normal.png") no-repeat center;
+    background-size:70px;
+    width: 70px;
+    height: 70px;
+    left: -80px;
+    right: auto !important;
+}
+#fb7 .fb7-nav-arrow.prev:hover {
+    background: url("../images/icon/previous_normal_down.png") no-repeat center;
+    background-size: 70px;
+}
+#fb7 .fb7-nav-arrow.next {
+    background: url("../images/icon/next_normal.png") no-repeat center;
+    background-size:70px;
+    width: 70px;
+    height: 70px;
+    right: -80px;
+    left: auto !important;
+}
+#fb7 .fb7-nav-arrow.next:hover {
+    background: url("../images/icon/next_normal_down.png") no-repeat center;
+    background-size: 70px;
+}
+#fb7 .fb7-menu#fb7-right {
+    display: none;
+}
+#fb7 #fb7-footer {
+    background: #000;
+    text-align: center;
+}
+#fb7 .fb7-menu#fb7-center {
+    display: inline-block;
+    position: static;
+    left:auto;
+}
+#fb7 .fb7-menu li {
+    background: none;
+    width: auto;
+    height: auto;
+}
+#fb7 .fb7-menu li:first-child, #fb7 .fb7-menu li:last-child {
+    width: auto;
+}
+#fb7 .fb7-menu li a {
+    width: 28px;
+    height: 28px;
+    margin: 2px 20px 0 20px;
+}
+#fb7 .fb7-menu li:hover>span {
+    display: none !important;
+}
+#fb7 #fb7-about h1 {
+    color:#333;
+}
+#fb7 #fb7-about p, #fb7 #fb7-about li {
+    color:#999;
+}
+#fb7 .fb7-menu li a.fb7-download {
+    display: none;
+}
+#fb7 .fb7-menu li a.fb7-zoom-in {
+    background: url("../images/icon/zoomin.png") no-repeat center;
+    background-size:contain;
+}
+#fb7 .fb7-menu li a.fb7-zoom-in:hover {
+    background: url("../images/icon/zoomin.png") no-repeat center;
+    background-size:contain;
+}
+#fb7 .fb7-menu li a.fb7-zoom-out {
+    background: url("../images/icon/zoomout.png") no-repeat center;
+    background-size:contain;
+}
+#fb7 .fb7-menu li a.fb7-zoom-out:hover {
+    background: url("../images/icon/zoomout.png") no-repeat center;
+    background-size:contain;
+}
+#fb7 .fb7-menu li a.fb7-zoom-auto {
+    background: url("../images/icon/zoomauto.png") no-repeat center;
+    background-size:contain;
+}
+#fb7 .fb7-menu li a.fb7-zoom-auto:hover {
+    background: url("../images/icon/zoomauto.png") no-repeat center;
+    background-size:contain;
+}
+#fb7 .fb7-menu li a.fb7-zoom-original {
+    background: url("../images/icon/zoom1.png") no-repeat center;
+    background-size:contain;
+}
+#fb7 .fb7-menu li a.fb7-zoom-original:hover {
+    background: url("../images/icon/zoom1.png") no-repeat center;
+    background-size:contain;
+}
+#fb7 .fb7-menu li a.fb7-show-all {
+    background: url("../images/icon/allpage.png") no-repeat center;
+    background-size:contain;
+}
+#fb7 .fb7-menu li a.fb7-show-all:hover {
+    background: url("../images/icon/allpage.png") no-repeat center;
+    background-size:contain;
+}
+#fb7 .fb7-menu li a.fb7-home {
+    background: url("../images/icon/home.png") no-repeat center;
+    background-size:contain;
+}
+#fb7 .fb7-menu li a.fb7-home:hover {
+    background: url("../images/icon/home.png") no-repeat center;
+    background-size:contain;
+}
+#fb7 .fb7-menu li a.fb7-fullscreen {
+    background: url("../images/icon/fullscreen.png") no-repeat center;
+    background-size:contain;
+}
+#fb7 .fb7-menu li a.fb7-fullscreen:hover {
+    background: url("../images/icon/fullscreen.png") no-repeat center;
+    background-size:contain;
+}
+/*3急救-急救列表*/
+ .procon, .swiper-fl {
+    padding: 80px 0;
+}
+.swiper-fl {
+    display: none;
+}
+.procon ul {
+    font-size: 0;
+}
+.procon ul li {
+    display: inline-block;
+    width: 20%;
+}
+.procon ul li a, .swiper-fl .swiper-slide a {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    color:#333;
+    border-left:1px solid #e9e9e9;
+    border-right:1px solid #e9e9e9;
+    margin-right: -1px;
+}
+.procon ul li a>i, .swiper-fl .swiper-slide a>i {
+    display: inline-block;
+    width: 115px;
+    height: 115px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: all 0.5s;
+}
+.procon ul li a:hover>i, .swiper-fl .swiper-slide a:hover>i {
+    transform:translateY(-8px);
+}
+.procon ul li a>i.i1, .swiper-fl .swiper-slide a>i.i1 {
+    background-image: url("../images/icon/index_ico01.png")
+}
+.procon ul li a>i.i2, .swiper-fl .swiper-slide a>i.i2 {
+    background-image: url("../images/icon/index_ico02.png")
+}
+.procon ul li a>i.i3, .swiper-fl .swiper-slide a>i.i3 {
+    background-image: url("../images/icon/index_ico03.png")
+}
+.procon ul li a>i.i4, .swiper-fl .swiper-slide a>i.i4 {
+    background-image: url("../images/icon/index_ico04.png")
+}
+.procon ul li a>i.i5, .swiper-fl .swiper-slide a>i.i5 {
+    background-image: url("../images/icon/index_ico05.png")
+}
+.procon ul li a:hover>i.i1, .swiper-fl .swiper-slide a:hover>i.i1 {
+    background-image: url("../images/icon/index_ico09.png")
+}
+.procon ul li a:hover>i.i2, .swiper-fl .swiper-slide a:hover>i.i2 {
+    background-image: url("../images/icon/index_ico10.png")
+}
+.procon ul li a:hover>i.i3, .swiper-fl .swiper-slide a:hover>i.i3 {
+    background-image: url("../images/icon/index_ico11.png")
+}
+.procon ul li a:hover>i.i4, .swiper-fl .swiper-slide a:hover>i.i4 {
+    background-image: url("../images/icon/index_ico12.png")
+}
+.procon ul li a:hover>i.i5, .swiper-fl .swiper-slide a:hover>i.i5 {
+    background-image: url("../images/icon/index_ico13.png")
+}
+.procon ul li a:hover>p, .swiper-fl .swiper-slide a:hover>p {
+    color:#ff2900;
+}
+.protop {
+    background: #fff;
+    margin-bottom: 30px;
+}
+.protop ul li {
+    border: 1px solid #e6e6e6;
+    margin-bottom: -1px;
+	/* 新增 许英杰 */
+	list-style: none;
+	/*  */
+}
+.protop ul li dl dt {
+    padding:0 20px;
+    font-size: 14px;
+    color:#333;
+    margin: 20px 0;
+    float: left;
+	/* 新增 许英杰 */
+	list-style: none;
+	/*  */
+}
+.protop ul li dl.cho dt {
+    border-right: 1px solid #e6e6e6;
+    color:#ff2900;
+}
+.protop ul li dl dd {
+    float: left;
+}
+.protop ul li dl dd span, .protop ul li dl dd a {
+    display: inline-block;
+    padding: 20px 5px;
+    margin: 0 15px;
+    font-size: 14px;
+    color:#999;
+}
+.protop ul li dl dd span i {
+    color:#ff2900;
+}
+.protop ul li dl dd a {
+    border-bottom: 2px solid transparent;
+}
+.protop ul li dl dd a:hover, .protop ul li dl dd a.active {
+    color:#ff2900;
+    border-bottom: 2px solid #ff2900;
+}
+.protil {
+    background: #333;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.protil span {
+    float: left;
+    font-size: 20px;
+    color:#fff;
+    line-height: 35px;
+}
+.protil .search {
+    float: right;
+    border-radius: 150px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 5px 45px 5px 20px;
+    position: relative;
+}
+.protil .search input {
+    width: 235px;
+    font-size: 14px;
+    color:#fff;
+    background: none;
+    border:none;
+    line-height: 25px;
+}
+.protil .search input::-webkit-input-placeholder {
+    /* WebKit browsers*/
+    color:#dbdbdb;
+}
+.protil .search input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18*/
+    color:#dbdbdb;
+}
+.protil .search input::-moz-placeholder {
+    /* Mozilla Firefox 19+*/
+    color:#dbdbdb;
+}
+.protil .search input:-ms-input-placeholder {
+    /* Internet Explorer 10+*/
+    color:#dbdbdb;
+}
+.protil .search a {
+    position: absolute;
+    right: 0;
+    top:50%;
+    transform:translateY(-50%);
+    width: 45px;
+    height:100%;
+    background: url("../images/icon/search.png") no-repeat center;
+    background-size: 20px;
+    display: block;
+}
+.probox>ul li {
+    background: #fff;
+    margin-bottom: 20px;
+	/* 新增 许英杰 */
+	list-style: none;
+	/*  */
+}
+.probox>ul li a {
+    display: block;
+    border: 1px solid #eee;
+    padding: 50px 0;
+    font-size: 0;
+    transition: none;
+}
+.pimg {
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.pimg img {
+    margin: 0 auto;
+    width: 70%;
+}
+.ptxt {
+    width: 60%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.ptxt h4 {
+    font-size: 28px;
+    color:#333;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.ptxt p {
+    font-size: 14px;
+    color:#333;
+    margin-bottom: 15px;
+}
+.ptxt ul li {
+    float: left;
+    width: 33%;
+    color:#999;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.ptxt ul li span {
+    padding-left: 10px;
+    background: url("../images/icon/redico.png") no-repeat left center;
+    display: block;
+}
+.ptxt>span {
+    display: inline-block;
+    padding: 10px 25px;
+    background:#666;
+    color:#fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+.probox>ul li:hover .ptxt h4 {
+    color:#ff2900;
+}
+.probox>ul li:hover .ptxt>span {
+    background:#ff2900;
+}
+.pages {
+    margin-top: 50px;
+}
+.pages ul {
+    text-align: center;
+    font-size: 0;
+}
+.pages ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin:0 5px;
+    font-size: 12px;
+}
+.pages ul li.seepage a {
+    font-size: 0;
+    padding: 16px;
+}
+.pages ul li.s1 a {
+    background: url("../images/icon/p_left.png") no-repeat center #fff;
+    background-size:13px;
+}
+.pages ul li.s1 a:hover {
+    background: url("../images/icon/wh_left.png") no-repeat center #ff2900;
+    background-size:13px;
+}
+.pages ul li.s2 a {
+    background: url("../images/icon/p_right.png") no-repeat center #fff;
+    background-size:13px;
+}
+.pages ul li.s2 a:hover {
+    background: url("../images/icon/wh_right.png") no-repeat center #ff2900;
+    background-size:13px;
+}
+.pages ul li i {
+    font-size: 12px;
+    padding: 8px 12px;
+    color:#999;
+    border:1px solid #dedede;
+    background: #fff;
+}
+.pages ul li a {
+    padding: 8px 12px;
+    border:1px solid #dedede;
+    background: #fff;
+    font-size: 12px;
+    color:#333;
+    display: block;
+}
+.pages ul li a.active, .pages ul li a:hover {
+    color:#fff;
+    background: #ff2900;
+    border:1px solid #ff2900;
+}
+.pages ul li span {
+    margin: 0 3px;
+}
+.pages ul li span input {
+    padding:1px 8px;
+    line-height: 30px;
+    border: 1px solid #dedede;
+    font-size: 12px;
+    color:#333;
+    text-align: center;
+    width:20px;
+}
+.pages ul li a.btn {
+    padding: 8px 10px;
+    display: inline-block;
+    margin: 0 10px;
+    color:#999;
+}
+.pages ul li a.btn:hover {
+    background: #fff;
+    border:1px solid #dedede;
+}
+/* 急救-急救详情 */
+ .local {
+    padding: 20px 0;
+    border-bottom: 1px solid #e6e6e6;
+}
+.local a {
+    color:#666;
+}
+.local a:hover {
+    color:#333;
+}
+.local span {
+    color:#999;
+}
+.cstop {
+    font-size: 0;
+    margin-bottom: 50px;
+}
+.csimg {
+    width: 50%;
+    margin-right: 5%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.csimg p {
+    border: 1px solid #e6e6e6;
+    padding: 50px 0;
+}
+.csimg p img {
+    margin: 0 auto;
+    width: 80%;
+}
+.cstxt {
+    width: 45%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.cstxt>h4 {
+    font-size: 32px;
+    color:#333;
+    text-transform: uppercase;
+    margin-bottom:10px;
+    font-weight: normal;
+}
+.cstxt>p {
+    font-size: 14px;
+    color:#333;
+    margin-bottom: 15px;
+    word-break:break-all;
+    display:-webkit-box;
+    -webkit-line-clamp:1;
+    -webkit-box-orient:vertical;
+    overflow:hidden;
+}
+.cstxt>ul {
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 20px 0;
+    margin-bottom: 15px;
+}
+.cstxt>ul li {
+    float: left;
+    width: 33%;
+    color:#999;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.cstxt>ul li span {
+    padding-left: 10px;
+    background: url("../images/icon/redico.png") no-repeat left center;
+    display: block;
+}
+.csintro span {
+    display: block;
+    font-size: 14px;
+    color:#333;
+    margin-bottom: 15px;
+}
+.csintro p {
+    font-size: 12px;
+    color:#666;
+    line-height: 25px;
+    margin-bottom: 15px;
+    word-break:break-all;
+    display:-webkit-box;
+    -webkit-line-clamp:4;
+    -webkit-box-orient:vertical;
+    overflow:hidden;
+}
+.csbtn a {
+    display: inline-block;
+    padding: 10px 30px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    font-size: 14px;
+    color:#666;
+    margin-right: 10px;
+}
+.csbtn a:hover {
+    color:#ff2900;
+    border:1px solid #ff2900;
+}
+/* 新增 许英杰 表格 0808  */
+
+.table-caption{
+	letter-spacing: -.33px;
+	    margin: 10px 0;
+	    padding: 0 20px;
+	    font-weight: 700;
+	    text-align: center;
+	    font-size: 19px;
+}
+
+/* 头部固定 加滚动条 */
+ .table-box tbody{
+	            display: block;
+	            height: 500px;
+	            overflow-y: auto;
+	            -webkit-overflow-scrolling: touch;
+}
+.table-box thead{
+				display: block;
+				border-top-width: 1px;
+				border-top-style: solid;
+				border-top-color: rgb(211, 202, 221);
+
+}
+.table-box tbody tr,thead tr{
+            table-layout: fixed;
+            display: table;
+            width: 100%;
+        }
+
+
+
+ /* 滚动条宽度 */
+::-webkit-scrollbar {
+            width: 4px;
+            background-color: transparent;
+}
+ 
+  /* 滚动条颜色 */
+::-webkit-scrollbar-thumb {
+            background-color: #7F8C8D;
+}
+
+/* 头部固定 加滚动条 */
+.table-box td,th{
+	text-align: left;  
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: rgb(211, 202, 221);
+	padding: 5px 15px;
+	font-size: 16px;
+	color: rgb(95, 74, 121);
+}
+.table-box table {
+border-bottom-width: 1px;
+border-bottom-style: solid;
+border-bottom-color: rgb(211, 202, 221);
+}
+
+/* /* Alternating background colors */
+/* 偶数 */ 
+.table-box tr:nth-child(even) {
+background: rgb(223, 216, 232)
+}
+/* 奇数 */
+.table-box tr:nth-child(odd) {
+background: #FFF
+}
+tr:hover td{
+    background: aquamarine;
+}
+/* 新增 许英杰 */
+
+.protil p {
+	
+    font-size: 20px;
+    color:#fff;
+    text-align: center;
+}
+
+.cscon ul {
+    width: 80%;
+    margin: 0 auto;
+}
+.cscon ul li {
+    border: 1px solid #e6e6e6;
+    margin-bottom: -1px;
+    padding: 20px 30px;
+    font-size: 0;
+}
+.cscon ul li p {
+    width: 80%;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    color:#666;
+    text-transform: uppercase;
+}
+.cscon ul li span {
+    width: 20%;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    color:#666;
+    text-transform: uppercase;
+}
+
+/*5急救-急救列表*/
+ .news.pd {
+    padding-top: 20px;
+}
+.news_list a {
+    display: block;
+    padding: 30px 0;
+    border-bottom: 1px solid #e6e6e6;
+    font-size: 0;
+    transition: none;
+}
+.news_list a dl dt {
+    display:inline-block;
+    width: 30%;
+    margin-right:4%;
+    vertical-align: middle;
+    overflow: hidden;
+}
+.news_list a dl dd {
+    display: inline-block;
+    width: 66%;
+    vertical-align: middle;
+}
+.news_list a dl dt img {
+    width: 100%;
+    transition: all 0.3s;
+}
+.news_list a:hover dl dt img {
+    transform:scale(1.1);
+}
+.news_list a dl dd h4 {
+    font-size: 18px;
+    color:#000;
+    margin-bottom: 20px;
+}
+.news_list a:hover dl dd h4 em {
+    color:#ff2900;
+}
+.date {
+    font-size: 12px;
+    color:#999;
+    display: inline-block;
+    float: right;
+    line-height: 24px;
+}
+.date i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 13px;
+    height: 13px;
+    background: url("../images/icon/date.png") no-repeat center;
+    background-size: contain;
+    margin-right: 5px;
+}
+.date b {
+    font-weight: normal;
+    display: inline-block;
+    vertical-align: middle;
+}
+.news_list a dl dd p {
+    font-size: 12px;
+    color:#999;
+    line-height: 28px;
+    margin-bottom: 30px;
+    word-break:break-all;
+    display:-webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient:vertical;
+    overflow:hidden;
+}
+.news_list a dl dd>span {
+    font-size: 12px;
+    color:#fff;
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 5px;
+    background: #666;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+.news_list a:hover dl dd>span {
+    background: #ff2900;
+}
+/*5急救-急救详情*/
+ .news_txt h4 {
+    font-size: 28px;
+    text-align: center;
+    color:#333;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.news_txt .date {
+    float: none;
+    display: block;
+    text-align: center;
+    margin-top:15px;
+}
+.news_txt .txtcon p {
+    font-size: 14px;
+    color:#666;
+    line-height: 25px;
+}
+.txt_btm {
+    text-align: center;
+    margin-top:50px;
+}
+.txt_btm a {
+    display:inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    color:#666;
+    text-decoration: underline;
+}
+.txt_btm a.btn {
+    padding: 8px 40px;
+    color:#666;
+    border: 1px solid #e6e6e6;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.txt_btm a:hover {
+    color:#ff2900;
+}
+.txt_btm a.btn:hover {
+    color:#fff;
+    background: #ff2900;
+    border: 1px solid #ff2900;
+}
+/*6联系方式*/
+ /* .ct_til h4 {
+    font-size: 32px;
+    color:#333;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+.ct_til p {
+    padding: 20px 30px;
+    background: #ff2900;
+    color:#fff;
+    font-size:18px;
+    text-transform: uppercase;
+}
+.ct_til p b {
+    font-size: 24px;
+}
+.ct_cell {
+    padding: 35px 30px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.ct_cell h4 {
+    font-size: 18px;
+    color:#333;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+.ctleft {
+    float: left;
+    width: 90%;
+}
+.ctleft ul li {
+    float: left;
+    width: 50%;
+}
+.mes {
+    margin-bottom: 30px;
+}
+.mes h5 {
+    font-weight: normal;
+}
+.mes h5 i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 22px;
+    height: 22px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 10px;
+}
+.mes h5 span {
+    color:#999;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.mes_p {
+    font-size: 14px;
+    color:#333;
+    line-height: 30px;
+    padding-left:32px;
+}
+.ctright {
+    float: left;
+    width: 10%;
+} 
+ * 许英杰0825注释掉/
+/*6加入我们*/
+ /* .ct_cell ul li {
+    width: 48%;
+    font-size: 0;
+    margin: 0 1%;
+    float: left;
+    margin-bottom: 40px;
+}
+.ct_cell ul li>span {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20%;
+    font-size: 16px;
+    color:#333;
+    text-align: right;
+}
+.ct_cell ul li>span i {
+    color:#ff0000;
+}
+.ct_cell ul li>p {
+    display: inline-block;
+    vertical-align: middle;
+    width: 78%;
+    margin-left: 2%;
+    background: #ededed;
+    position: relative;
+}
+.ct_cell ul li>p input {
+    width: 100%;
+    line-height: 30px;
+    height: 40px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding:5px 10px;
+    font-size: 16px;
+    background: none;
+    border: 1px solid #e6e6e6;
+} 注释掉 许英杰0825*/
+/* .ct_cell ul li>p select {
+    width:100%;
+    height: 40px;
+    font-size:16px;
+    padding: 5px 10px;
+    display: -webkit-box;
+    background: none;
+    border: 1px solid #e6e6e6;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+} 注释掉 许英杰*/
+/* .retxt {
+    width: 78%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 2%;
+}
+.resume {
+    border:none;
+}
+.resume ul li>span {
+    vertical-align: top;
+    padding-top: 15px;
+}
+.remes {
+    position: relative;
+    height: 50px;
+}
+.retxt span {
+    display: block;
+    height: 100%;
+    text-align: left;
+    line-height: 50px;
+    padding: 0 100px 0 10px;
+    background: #ededed;
+    color:#999;
+    font-size: 16px;
+    position: relative;
+}
+.choose {
+    display: block;
+    padding: 5px 0;
+    width:76px;
+    font-size: 16px;
+    text-align:center;
+    color:#fff;
+    border-radius: 5px;
+    background: #666;
+    position: absolute;
+    right: 10px;
+    top:50%;
+    transform:translateY(-50%);
+}
+#upload {
+    width: 76px;
+    height: 100%;
+    position: absolute;
+    right: 10px;
+    top:0;
+    bottom:0;
+    opacity: 0;
+} 注释掉 许英杰0825*/
+/* .setbtn {
+    display: inline-block;
+    padding: 12px 80px;
+    background: #ff2900;
+    color:#fff;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 40px;
+    font-size: 16px;
+}
+.setbtn:hover {
+    color:#fff;
+}  注释掉 许英杰0825*/
+/* .join.pd {
+    padding-top: 30px;
+}  许英杰 注释掉0825*/
+@media (min-width:1280px) {
+    .container {
+        width:1180px;
+    }
+}
+@media (max-width:1280px) {
+    .container {
+        width:960px;
+    }
+    /*  妇产科*/
+    /*products-detail.html*/
+    .csimg {
+        margin-right: 3%;
+    }
+    .cstxt {
+        width: 47%;
+    }
+    .cstxt>h4 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+    .cstxt>ul {
+        padding: 10px 0;
+        margin-bottom: 15px;
+    }
+    .cstxt>ul li {
+        width: 50%;
+        margin-bottom: 8px;
+    }
+    .csintro span {
+        margin-bottom: 5px;
+    }
+    .csintro p {
+        line-height: 20px;
+    }
+    /*contact-join.html*/
+    .ct_cell ul li>span {
+        width: 24%;
+    }
+    .ct_cell ul li>p, .retxt {
+        width: 74%;
+    }
+    /*contact.html*/
+    .ctleft {
+        width: 85%;
+    }
+    .ctright {
+        width: 15%;
+    }
+}
+@media (max-width:992px) {
+    .container {
+        width:98%;
+    }
+    .banner {
+        height: 350px;
+    }
+    .bantxt h4 {
+        font-size: 30px;
+    }
+    .bantxt p {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    /*about-image.html */
+    .xbnav a {
+        padding: 30px 10px;
+        margin-right: 30px;
+    }
+	/* 新增 许英杰 */
+	.navtxt a {
+	    padding: 25px 10px;
+	    margin-right: 30px;
+	}
+	/*  */
+    /*2妇产科*/
+    .bookfb7 {
+        height: 700px;
+    }
+    #fb7 .fb7-menu li a.fb7-fullscreen {
+        display: none;
+    }
+    /*products-list.html*/
+    .procon ul li a {
+        font-size: 14px;
+    }
+    .procon ul li a>i {
+        width: 85px;
+        height: 85px;
+    }
+    .protop ul li dl dt {
+        float: none;
+        margin: 10px 0 0 0;
+    }
+    .protop ul li dl.cho dt {
+        float: left;
+        margin: 20px 0;
+    }
+    .pimg {
+        width: 45%;
+    }
+    .ptxt {
+        width: 55%;
+    }
+    .ptxt h4 {
+        font-size: 24px;
+    }
+    .ptxt p {
+        margin-bottom: 10px;
+    }
+    .ptxt ul li {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    .ptxt>span {
+        margin-top: 10px;
+    }
+    /*products-detail.html*/
+    .csintro p {
+        word-break: break-all;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    /*news-list.html*/
+    .news_list a dl dt {
+        width: 40%;
+    }
+    .news_list a dl dd {
+        width: 56%;
+    }
+    /*news-detail.html*/
+    .news_txt h4 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .news_txt .date {
+        margin-top: 5px;
+    }
+    /*contact-join.html*/
+    .ct_cell {
+        padding: 35px 10px;
+    }
+    .ct_cell ul li {
+        width: 100%;
+        text-align: center;
+        margin:0 0 30px 0;
+    }
+    .ct_cell ul li>span {
+        width: 15%;
+    }
+    .ct_cell ul li>p, .retxt {
+        width: 74%;
+    }
+    /*contact.html*/
+    .ctleft ul li {
+        margin: 0;
+        text-align: left;
+    }
+    .ctleft {
+        width: 80%;
+    }
+    .ctright {
+        width: 20%;
+    }
+}
+@media (max-width:750px) {
+    .container {
+        width: 94%;
+    }
+    .banner {
+        height: 200px;
+    }
+    .bantxt h4 {
+        font-size: 20px;
+    }
+    .bantxt p {
+        font-size: 12px;
+    }
+    /*about-image.html */
+    .xbnav a {
+        padding: 20px 10px;
+        margin-right: 10px;
+        font-size: 14px;
+    }
+
+	/* 新增 许英杰 */
+	.navtxt a {
+	    padding: 5px 1px 0;
+	    margin-right: 10px;
+	    font-size: 14px;
+	}
+	
+	/*  */
+    .xtxt {
+        margin-bottom: 30px;
+    }
+    .xtil h4 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .xtil p {
+        font-size: 12px;
+    }
+	/* 注释掉 许英杰 */
+   /* .ximg {
+        margin: 15px 0;
+    } */
+    .xmes h4 {
+        margin-bottom: 20px;
+    }
+    .xmes .mestxt ul {
+        width: 100%;
+    }
+    .xmes .mestxt ul li {
+        width: 100%;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    /*about-culture.html*/
+	/* 注释掉 许英杰 */
+   /* .ximg.clearfix img {
+        width: 100%;
+        margin-bottom: 10px;
+        float: none;
+    } */
+    /*2妇产科*/
+    .bookfb7 {
+        height: 360px;
+    }
+    #fb7 .fb7-menu li a {
+        margin: 2px 8px 0 8px;
+        width: 23px;
+        height: 23px;
+    }
+    #fb7 .fb7-nav-arrow.prev {
+        background: url("../images/icon/previous_normal.png") no-repeat center;
+        background-size:70px;
+        width: 70px;
+        height: 70px;
+        left: -53px;
+        right: auto !important;
+        transform: scale(0.7) !important;
+    }
+    #fb7 .fb7-nav-arrow.prev:hover {
+        background: url("../images/icon/previous_normal_down.png") no-repeat center;
+        background-size: 70px;
+    }
+    #fb7 .fb7-nav-arrow.next {
+        background: url("../images/icon/next_normal.png") no-repeat center;
+        background-size:70px;
+        width: 70px;
+        height: 70px;
+        right: -53px;
+        left: auto !important;
+        transform: scale(0.7) !important;
+    }
+    #fb7 .fb7-nav-arrow.next:hover {
+        background: url("../images/icon/next_normal_down.png") no-repeat center;
+        background-size: 70px;
+    }
+    /*products-list.html*/
+    .procon {
+        display: none;
+    }
+    .swiper-fl {
+        display: block;
+        padding: 30px 0;
+    }
+    .swiper-fl .swiper-slide a>i {
+        width: 65px;
+        height: 65px;
+    }
+    .swiper-fl .swiper-slide a {
+        font-size: 12px;
+    }
+    .protop ul li dl dd span {
+        margin: 0 5px;
+    }
+    .protop ul li dl dt {
+        padding: 0 20px 0 5px;
+    }
+    .protop ul li dl dd a {
+        padding: 10px 5px;
+        margin: 5px 5px 0 5px;
+    }
+    .protil span {
+        font-size: 16px;
+    }
+    .protil {
+        padding: 10px;
+    }
+    .protil .search {
+        padding: 4px 35px 4px 10px;
+    }
+    .protil .search input {
+        width: 110px;
+        font-size: 12px;
+    }
+    .protil .search a {
+        width: 35px;
+        background-size: 15px;
+    }
+    .pimg {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .ptxt {
+        width: auto;
+        padding: 0 10px;
+    }
+    .probox>ul li {
+        margin-bottom: 20px;
+    }
+    .ptxt ul li {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .pages {
+        margin-top: 20px;
+    }
+    .pages ul li {
+        display: none;
+    }
+    .pages ul li.seepage {
+        display: inline-block;
+    }
+    /*products-detail.html*/
+    .csimg {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+    .cstxt {
+        width: 100%;
+    }
+    .protil p {
+        font-size: 16px;
+    }
+    .cstxt>ul li {
+        width: 100%;
+    }
+    .cscon ul {
+        width: 100%;
+    }
+    .cscon ul li {
+        padding: 20px 10px;
+    }
+    .cscon ul li p {
+        width: 60%;
+        font-size: 14px;
+    }
+    .cscon ul li span {
+        width: 40%;
+        font-size: 14px;
+        text-align: right;
+    }
+    /*skill-list.html*/
+    /* .tech_til {
+        padding: 20px 10px;
+    }
+    .tech_til span {
+        width: 50%;
+    }
+    .tech_til span.pro_n {
+        text-align: left;
+    }
+    .tech_til span.download {
+        text-align: right;
+    }
+    .tech_list ul li {
+        padding: 20px 10px;
+    }
+    .tech_list ul li span {
+        width: 50%;
+    }
+    .tech_list ul li span.pro_n {
+        text-align: left;
+    }
+    .tech_list ul li span i.gray-font {
+        display: block;
+    }
+    .tech_til span.ds, .tech_list ul li span.ds {
+        display: none;
+    }
+    .tech_list ul li span.download {
+        text-align: right;
+    }
+    .tech_list ul li span.download a {
+        display: inline-block;
+        text-align: center;
+    }
+    .tech_list ul li span.download b {
+        width: 30px;
+        height: 30px;
+    }
+    .tech_list ul li span.download em {
+        display: block;
+    }   注释掉 许英杰0826*/
+    /*news-list.html*/
+    .news_list a {
+        padding: 0 0 30px 0;
+        margin-bottom: 30px;
+    }
+    .news_list a dl dt {
+        width:100%;
+        margin-bottom: 10px;
+    }
+    .news_list a dl dd {
+        width: 100%;
+    }
+    .news_list a dl dd h4 {
+        margin-bottom: 5px;
+    }
+    .date {
+        float: none;
+        display: block;
+    }
+    .news_list a dl dd p {
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+    /*news-detail.html*/
+    .news_txt h4 {
+        font-size: 20px;
+    }
+    .txt_btm a {
+        display: block;
+        text-align: left;
+        margin: 10px 0;
+        float: none;
+    }
+    .txt_btm a.btn {
+        display: inline-block;
+        text-align: center;
+        margin: 20px 0;
+    }
+    /*contact-join.html*/
+    .ct_cell {
+        padding: 0 0 25px 0;
+        margin-bottom: 30px;
+    }
+    .ct_cell ul li {
+        width: 100%;
+        text-align: left;
+        margin: 0 0 10px 0;
+        float: none;
+    }
+    .ct_cell ul li>span {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    .ct_cell ul li>p, .retxt {
+        width: 100%;
+        margin-left: 0;
+    }
+    .setbtn {
+        padding: 10px 40px;
+        margin-top: 20px;
+    }
+    .resume ul li>span {
+        padding-top: 0;
+    }
+    /*contact.html*/
+    .ct_til h4 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .ct_til p {
+        padding: 10px;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .ct_til p b {
+        font-size: 18px;
+    }
+    .ct_cell h4 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .ctleft {
+        width: 100%;
+    }
+    .mes {
+        margin-bottom: 10px;
+    }
+    .mes h5 i {
+        width: 22px;
+        height: 22px;
+        margin-right: 10px;
+    }
+    .mes_p {
+        padding-left: 32px;
+    }
+    .ctright {
+        width: 40%;
+        padding-left: 32px;
+    }
+}
